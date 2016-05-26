@@ -1,0 +1,16 @@
+<!DOCTYPE module SYSTEM "module.dtd">
+
+<module name="finken_logger_test">
+  <doc>
+    <description>
+      Logging test for FINken-III.
+    </description>
+  </doc>
+  <header>
+    <file name="logger.h" />
+  </header>
+  <init fun="finken_evaluate_new_message_init()" />
+  <makefile>
+    <file name="logger.c" />
+	</makefile>
+</module>
